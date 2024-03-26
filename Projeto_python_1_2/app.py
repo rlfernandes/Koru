@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__, template_folder='templates')
 
-# Lista para armazenar os dados das pessoas cadastradas  - teste teste teste
+# Lista para armazenar os dados das pessoas cadastradas
 pessoas = []
 
 # Rota para exibir a página inicial com a lista de pessoas cadastradas e opções CRUD
